@@ -1,5 +1,4 @@
-#FROM nginx
-#COPY dist/web-application-angular /usr/share/nginx/html
+
 
 ### STAGE 1: Build ###
 FROM node:12.14-alpine AS build
